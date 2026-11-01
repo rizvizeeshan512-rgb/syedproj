@@ -1,0 +1,64 @@
+/* Shared styles for the Oman Travel Guide */
+:root {
+    --deep-red: #7b2d26;
+    --sand: #f4ead7;
+    --cream: #fffaf1;
+    --palm: #315b45;
+    --ink: #292721;
+    --gold: #c79b52;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--sand); color: var(--ink); font-family: Arial, Helvetica, sans-serif; line-height: 1.6; }
+#page-header { background: var(--deep-red); color: white; }
+.header-inner, main, footer { width: 90%; max-width: 1100px; margin: 0 auto; }
+.header-inner { padding: 1.4rem 0 1rem; }
+h1, h2, h3 { line-height: 1.25; }
+h1 { margin: 0; }
+.tagline { margin: .35rem 0 0; }
+nav { background: var(--palm); }
+.nav-list { display: flex; flex-wrap: wrap; justify-content: center; gap: .2rem; list-style: none; margin: 0; padding: .35rem; }
+.nav-list a { display: block; color: white; padding: .65rem 1rem; text-decoration: none; border-radius: 4px; }
+.nav-list a:hover, .nav-list a:focus, .nav-list .current-page { background: var(--gold); color: #20190e; }
+main { min-height: 65vh; padding: 1.5rem 0 2rem; }
+.section-card, .small-card { background: var(--cream); border-radius: 10px; padding: 1.35rem; margin: 0 0 1.3rem; box-shadow: 0 2px 8px #49351b18; }
+.hero { display: flex; align-items: center; gap: 1.5rem; }
+.hero-copy { flex: 1; }
+.feature-image { width: 48%; }
+img { display: block; max-width: 100%; height: auto; border-radius: 8px; }
+button { background: var(--palm); color: white; border: 0; border-radius: 5px; padding: .7rem 1rem; font-size: 1rem; cursor: pointer; }
+button:hover, button:focus { background: var(--deep-red); }
+.notice { color: var(--palm); font-weight: bold; }
+.card-row { display: flex; gap: 1rem; }
+.small-card { float: left; width: calc(33.333% - .67rem); margin-bottom: .5rem; }
+.clear-floats { clear: both; }
+.destination-card { display: flex; gap: 1.2rem; padding: 1.2rem 0; border-top: 1px solid #ddcfb8; }
+.destination-card img { float: left; width: 38%; max-width: 360px; align-self: flex-start; }
+.destination-card > div { flex: 1; }
+.culture-figure { width: 70%; margin: 1rem auto 1.5rem; }
+.culture-figure img { width: 100%; }
+.culture-figure figcaption { padding-top: .5rem; color: var(--palm); }
+form { max-width: 620px; }
+.form-field { margin: 0 0 1rem; }
+.form-field label { display: block; font-weight: bold; margin-bottom: .3rem; }
+input, select { display: block; width: 100%; padding: .65rem; border: 1px solid #897a63; border-radius: 4px; font: inherit; background: white; }
+.field-error { display: block; min-height: 1.4em; color: #a12222; font-size: .95rem; }
+footer { clear: both; padding: 1rem 0 1.5rem; border-top: 1px solid #cbbda7; color: #514a3d; }
+footer p { margin: 0; }
+
+/* Descendant selector: paragraphs inside the main page area */
+main p { max-width: 75ch; }
+/* Grouping selector: share heading colour and spacing */
+h2, h3 { color: var(--deep-red); margin-top: 0; }
+
+@media (max-width: 650px) {
+    .header-inner, main, footer { width: 92%; }
+    .nav-list { display: block; text-align: center; }
+    .nav-list a { padding: .5rem; }
+    .hero, .destination-card, .card-row { display: block; }
+    .feature-image, .destination-card img, .culture-figure { width: 100%; max-width: none; margin: 1rem 0; }
+    .small-card { float: none; width: 100%; }
+    .section-card { padding: 1rem; }
+}
+
+
