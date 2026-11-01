@@ -1,43 +1,47 @@
 # Oman Travel Guide
 
 ## Project description
-[Write your own project description here.]
+[Write your own description of this project here.]
 
 ## Features
-[Describe the features that you have completed here.]
+[Describe the features you completed here.]
 
 ## File structure
 
-- `index.html` — Home page
-- `places.html` — Places to Visit in Oman
-- `culture.html` — Food and Culture
-- `plan.html` — Plan Your Trip form
-- `style.css` — Shared page styles
-- `script.js` — Mouse interactions and form checks
-- `images/` — Local image placeholders to replace with suitable images
+- `index.html` — Photo-led home page
+- `places.html` — Six destination profiles
+- `culture.html` — Food, architecture, traditions and etiquette
+- `plan.html` — Trip preference form with browser-side validation
+- `style.css` — Shared responsive design system
+- `script.js` — Mobile navigation, mouse interactions and form validation
+- `images/ATTRIBUTION.md` — Photo source and license credits
+
+## Images and credits
+The pages use photographs served from Wikimedia Commons. The credits and license links are recorded in [`images/ATTRIBUTION.md`](images/ATTRIBUTION.md). Images load from Wikimedia Commons, so an internet connection is needed to see them. The HTML, CSS and JavaScript use relative paths for the project files and work from the repository root on GitHub Pages.
 
 ## Opening the website
-[Write instructions for opening the website here. For a simple local preview, open `index.html` in a web browser.]
+[Write your own instructions here. For a local preview, open `index.html` in a browser.]
 
-## GitHub setup
-Open a terminal in this project folder. Create an empty GitHub repository using GitHub's website, then initialise and push this folder. Replace `<your-github-repository-url>` below with the URL GitHub gives you; no repository URL is included here.
+## GitHub Pages
+This project is arranged to publish from the root of the `main` branch. In GitHub, open **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, and save.
+
+## Git commands
+Run these commands from the project folder after creating an empty GitHub repository. Replace the example remote with your repository URL if needed.
 
 ```bash
 git init
 git add .
-git commit -m "Add Oman Travel Guide starter pages"
+git commit -m "Redesign Oman Travel Guide with responsive layouts"
 git branch -M main
 git remote add origin <your-github-repository-url>
 git push -u origin main
 ```
 
-Useful follow-up commit message examples:
+Meaningful follow-up commit examples:
 
-- `Add destination descriptions and images`
-- `Improve mobile navigation layout`
-- `Add trip form validation messages`
+- `Add original destination descriptions`
+- `Refine mobile navigation spacing`
+- `Update culture page photo captions`
 
-To publish with GitHub Pages, open the repository's **Settings**, select **Pages**, choose the `main` branch and `/ (root)` folder as the publishing source, then save. The files use relative links so the pages and local images can work under a GitHub Pages project path.
-
-The trip form validates entries in the browser only. It does not send email or store submissions.
+The trip form validates input in the browser only. It does not send email or store form submissions.
 
