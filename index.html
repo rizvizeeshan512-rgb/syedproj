@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[Write a short description of your Oman travel guide here.]">
+    <title>Oman Travel Guide | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="page-header">
+        <div class="header-inner">
+            <h1>Oman Travel Guide</h1>
+            <p class="tagline">[Write a short introduction to your website here.]</p>
+        </div>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a class="current-page" href="index.html" aria-current="page">Home</a></li>
+                <li><a href="places.html">Places to Visit</a></li>
+                <li><a href="culture.html">Food and Culture</a></li>
+                <li><a href="plan.html">Plan Your Trip</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home-main">
+        <section class="hero section-card" aria-labelledby="welcome-heading">
+            <div class="hero-copy">
+                <h2 id="welcome-heading">Welcome to Oman</h2>
+                <p>[Write your own welcoming introduction about Oman here.]</p>
+                <button type="button" id="welcome-button" onclick="showWelcomeMessage()">Show a travel tip</button>
+                <p id="welcome-message" class="notice" aria-live="polite">[Your travel tip will appear here.]</p>
+            </div>
+            <img class="feature-image" src="images/oman-landscape.svg" alt="Placeholder for a photograph of an Omani landscape">
+        </section>
+        <section class="section-card" aria-labelledby="start-heading">
+            <h2 id="start-heading">Explore the guide</h2>
+            <p>[Write a short description of what visitors can find on the other pages.]</p>
+            <div class="card-row">
+                <article class="small-card"><h3>Places</h3><p>[Add a short preview of your places page.]</p><a href="places.html">Explore places</a></article>
+                <article class="small-card"><h3>Food and culture</h3><p>[Add a short preview of your culture page.]</p><a href="culture.html">Explore culture</a></article>
+                <article class="small-card"><h3>Plan your trip</h3><p>[Add a short preview of your trip-planning page.]</p><a href="plan.html">Start planning</a></article>
+            </div>
+            <div class="clear-floats"></div>
+        </section>
+    </main>
+    <footer><p>[Add your name, project details or other footer text here.]</p></footer>
+</body>
+</html>
+
