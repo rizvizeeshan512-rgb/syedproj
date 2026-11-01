@@ -10,7 +10,8 @@ Photographs used by the site are loaded from the linked Wikimedia Commons file p
 - Jabal Akhdar in Oman — Khoula Al Mandhari — [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Jabal_Akhdar_in_Oman.jpg) — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - Salalah during khareef season meadows — Poojaryroshan — [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Salalah_during_khareef_season_meadows.jpg) — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - Omani Halwa with saffron — Slywire — [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Omani_Halwa_with_saffron.jpg) — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- Traditional Architecture Muttrah — Izeberg007 — [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Traditional_Architecture_Muttrah.jpg) — See the current file page for license details.
+- Traditional Architecture Muttrah — Izeberg007 — [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Traditional_Architecture_Muttrah.jpg) — CC0 1.0 dedication, as shown on the file page.
 
-Photographs remain subject to the terms on their individual file pages. Review those pages before reusing the photographs in another project.
+Displayed images use resized Commons thumbnails; no other edits to the photographs were made. Photographs remain subject to the terms on their individual file pages. Review those pages before reusing the photographs in another project.
+
 
