@@ -1,36 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="[Write a short description of your Oman places page here.]">
-    <title>Oman Travel Guide | Places to Visit</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="[Write a short introduction to the Oman destinations in this guide.]"><title>Destinations — Oman Travel Guide</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
 <body>
-    <header id="page-header">
-        <div class="header-inner"><h1>Oman Travel Guide</h1><p class="tagline">[Write a short introduction to your website here.]</p></div>
-        <nav aria-label="Main navigation"><ul class="nav-list">
-            <li><a href="index.html">Home</a></li><li><a class="current-page" href="places.html" aria-current="page">Places to Visit</a></li><li><a href="culture.html">Food and Culture</a></li><li><a href="plan.html">Plan Your Trip</a></li>
-        </ul></nav>
-    </header>
-    <main id="places-main">
-        <section class="section-card" aria-labelledby="places-heading">
-            <h2 id="places-heading">Places to Visit in Oman</h2>
-            <p>[Write an introduction to the destinations you chose.]</p>
-            <article class="destination-card">
-                <img src="images/destination-one.svg" alt="Placeholder for a photograph of your first destination">
-                <div><h3>[Destination name]</h3><p>[Write your own description of this place.]</p><button type="button" onclick="showPlaceNote('place-one-note')">Show a note</button><p id="place-one-note" class="notice" aria-live="polite">[Add a useful note about this destination.]</p></div>
-            </article>
-            <article class="destination-card">
-                <img src="images/destination-two.svg" alt="Placeholder for a photograph of your second destination">
-                <div><h3>[Destination name]</h3><p>[Write your own description of this place.]</p><button type="button" onclick="showPlaceNote('place-two-note')">Show a note</button><p id="place-two-note" class="notice" aria-live="polite">[Add a useful note about this destination.]</p></div>
-            </article>
-            <div class="clear-floats"></div>
-        </section>
-    </main>
-    <footer><p>[Add your name, project details or other footer text here.]</p></footer>
-</body>
-</html>
+<header class="site-header" id="site-header"><a class="brand" href="index.html" aria-label="Oman Travel Guide home"><span class="brand-mark">O</span><span>OMAN<span class="brand-sub">TRAVEL GUIDE</span></span></a><button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" onclick="toggleNavigation()"><span></span><span></span></button><nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a class="active" href="places.html" aria-current="page">Destinations</a><a href="culture.html">Culture</a><a href="plan.html">Plan your trip</a></nav><a class="header-cta" href="plan.html">Start planning <span>↗</span></a></header>
+<main>
+<section class="page-hero page-hero--places"><img class="page-hero-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_the_coastline_of_Muttrah.jpg?width=1800" alt="Aerial view of Muttrah's harbour and the Hajar mountains"><div class="hero-shade"></div><div class="page-shell page-hero-content"><p class="eyebrow eyebrow--light">SIX WAYS INTO OMAN</p><h1>Choose your<br><em>own horizon.</em></h1><p>[Write an introduction to the destinations you selected.]</p></div><span class="page-hero-index">DESTINATION GUIDE · 01</span></section>
+<section class="page-shell section-pad destinations-page"><div class="section-heading"><div><p class="eyebrow">FROM THE COAST TO THE HIGHlands</p><h2>Places to <em>explore.</em></h2></div><p class="heading-note">[Add a short note to help visitors choose a destination.]</p></div>
+<div class="destination-list">
+<article class="destination-feature" id="muscat" onmouseover="highlightCard(this)" onmouseout="resetCard(this)"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Corniche,_Muscat,_Oman.jpg?width=1400" alt="Mutrah Corniche and mountains in Muscat" loading="lazy"><div class="destination-detail"><span class="destination-number">01 / THE CAPITAL</span><h3>Muscat</h3><p>[Write your own description of Muscat.]</p><a class="text-link" href="plan.html">Add to your trip <span>↗</span></a></div></article>
+<article class="destination-feature destination-feature--reverse" id="nizwa" onmouseover="highlightCard(this)" onmouseout="resetCard(this)"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nizwa_Fort_Oman.jpg?width=1400" alt="Nizwa Fort, a historic landmark in Oman" loading="lazy"><div class="destination-detail"><span class="destination-number">02 / ANCIENT HEARTLAND</span><h3>Nizwa</h3><p>[Write your own description of Nizwa.]</p><a class="text-link" href="plan.html">Add to your trip <span>↗</span></a></div></article>
+<article class="destination-feature" id="wadi-shab" onmouseover="highlightCard(this)" onmouseout="resetCard(this)"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wadi_Shab_11-2025.jpg?width=1400" alt="The deep turquoise pool at Wadi Shab" loading="lazy"><div class="destination-detail"><span class="destination-number">03 / WADI COUNTRY</span><h3>Wadi Shab</h3><p>[Write your own description of Wadi Shab.]</p><a class="text-link" href="plan.html">Add to your trip <span>↗</span></a></div></article>
+<div class="destination-grid destination-grid--three">
+<article class="mini-destination" id="wahiba" onmouseover="highlightCard(this)" onmouseout="resetCard(this)"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wahiba_Sands,_Oman.jpg?width=1000" alt="Dunes of the Wahiba Sands" loading="lazy"><div><span class="destination-number">04 / THE DESERT</span><h3>Wahiba Sands</h3><p>[Write your own description.]</p></div></article>
+<article class="mini-destination" id="jebel-akhdar" onmouseover="highlightCard(this)" onmouseout="resetCard(this)"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jabal_Akhdar_in_Oman.jpg?width=1000" alt="Rugged peaks and villages in Jabal Akhdar" loading="lazy"><div><span class="destination-number">05 / THE GREEN MOUNTAIN</span><h3>Jebel Akhdar</h3><p>[Write your own description.]</p></div></article>
+<article class="mini-destination" id="salalah" onmouseover="highlightCard(this)" onmouseout="resetCard(this)"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salalah_during_khareef_season_meadows.jpg?width=1000" alt="Green meadows during Salalah's khareef season" loading="lazy"><div><span class="destination-number">06 / DHOFAR</span><h3>Salalah</h3><p>[Write your own description.]</p></div></article>
+</div></div></section>
+<section class="destination-cta"><div class="page-shell destination-cta-inner"><p class="eyebrow eyebrow--light">THE JOURNEY IS YOURS</p><h2>Start with a place.<br><em>See where it leads.</em></h2><a class="button button--light" href="plan.html">Plan your trip <span>↗</span></a></div></section>
+</main><footer class="site-footer"><div class="page-shell footer-main"><a class="brand brand--footer" href="index.html"><span class="brand-mark">O</span><span>OMAN<span class="brand-sub">TRAVEL GUIDE</span></span></a><p>[Add your own closing note here.]</p><a class="footer-top" href="#site-header">BACK TO TOP ↑</a></div><div class="page-shell footer-bottom"><span>© 2026 OMAN TRAVEL GUIDE</span><span>IMAGES: WIKIMEDIA COMMONS · CREDITS IN README</span><span>MADE WITH CARE</span></div></footer>
+</body></html>
 
