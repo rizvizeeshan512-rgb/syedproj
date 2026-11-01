@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[Write a short description of your Oman places page here.]">
+    <title>Oman Travel Guide | Places to Visit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="page-header">
+        <div class="header-inner"><h1>Oman Travel Guide</h1><p class="tagline">[Write a short introduction to your website here.]</p></div>
+        <nav aria-label="Main navigation"><ul class="nav-list">
+            <li><a href="index.html">Home</a></li><li><a class="current-page" href="places.html" aria-current="page">Places to Visit</a></li><li><a href="culture.html">Food and Culture</a></li><li><a href="plan.html">Plan Your Trip</a></li>
+        </ul></nav>
+    </header>
+    <main id="places-main">
+        <section class="section-card" aria-labelledby="places-heading">
+            <h2 id="places-heading">Places to Visit in Oman</h2>
+            <p>[Write an introduction to the destinations you chose.]</p>
+            <article class="destination-card">
+                <img src="images/destination-one.svg" alt="Placeholder for a photograph of your first destination">
+                <div><h3>[Destination name]</h3><p>[Write your own description of this place.]</p><button type="button" onclick="showPlaceNote('place-one-note')">Show a note</button><p id="place-one-note" class="notice" aria-live="polite">[Add a useful note about this destination.]</p></div>
+            </article>
+            <article class="destination-card">
+                <img src="images/destination-two.svg" alt="Placeholder for a photograph of your second destination">
+                <div><h3>[Destination name]</h3><p>[Write your own description of this place.]</p><button type="button" onclick="showPlaceNote('place-two-note')">Show a note</button><p id="place-two-note" class="notice" aria-live="polite">[Add a useful note about this destination.]</p></div>
+            </article>
+            <div class="clear-floats"></div>
+        </section>
+    </main>
+    <footer><p>[Add your name, project details or other footer text here.]</p></footer>
+</body>
+</html>
+
